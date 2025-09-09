@@ -1,9 +1,217 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+#nav {
+    max-width: 100%;
+}
+
+body {
+    background-color: #f3e3d3;
+}
 
 .logo{
-    width: 40px;
+   width: 40px;
 }
 
 #nav{
-   background: brown;
+   padding-top: 0.5rem;
+   padding-bottom: 0.01rem;
+   background: #5a3524;
 }
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-link {
+    margin-right: 20px;
+    color: #f7efe7;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    color: #f7efe7;
+    font-size: 22px;
+    font-weight: bold;
+     font-family: "Playfair Display", serif;
+}
+
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.form-control {
+    background-color: #fff;
+    color: #fff;
+    border: none;            
+}
+
+.d-flex {
+    display: flex;
+}
+
+.form-control::placeholder {
+  color: #ddd; 
+}
+
+.form-control:focus {
+  background-color: #5a3524; 
+  color: #fff;
+  box-shadow: none; 
+  border: 1px solid #fff; 
+}
+
+
+.btn {
+    background-color: #5a3524;
+    border-color: #f7efe7;
+}
+
+.btn-outline-success {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: inherit;
+    border: 1px solid #f7efe7;
+    color: #f7efe7;
+}
+
+.btn:hover {
+    color: #5a3524;
+    background-color: #f7efe7;
+    border-color: #f7efe7;
+}
+
+.capa {
+    font-weight: bold;
+    font-size: 100px;
+    color: #5a3524;
+    font-family: "Playfair Display", serif;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 500px;
+}
+
+.inicio {
+    float: right;
+    margin-top: -250px;
+    width: 400px;
+}
+
+.bolo-img {
+    width: 90px;
+    margin-left: 400px;
+    margin-top: -380px;
+}
+
+.pao-img {
+    width: 90px;
+    margin-left: 800px;
+    margin-top: -950px;
+}
+
+.croissant-img  {
+    width: 90px;
+    margin-left: 800px;
+    margin-top: 170px;
+}
+
+.donuts-img {
+    width: 110px;
+    margin-top: -170px;
+    margin-left: 400px;
+}
+
+.conjunto2-img {
+    margin-top: -620px;
+    width: 400px; 
+}
+
+.sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: justify;
+}
+
+.catalogo {
+    margin-top: 250px;
+    margin-left: 270px;
+}
+
+
+.card {
+    margin-top: 30px;
+    width: 250px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.main-title {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+#contatos {
+  background: #f8f8f8;   
+  padding: 40px; 
+  margin-right: 200px;   
+  margin-top: 350px;
+}
+
+#contatos .main-title {
+  text-align: center;
+  font-size: 28px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.destaque-texto {
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destaque-texto:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.icones {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #6b4f4a; 
+}
+
+.destaque-texto h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.destaque {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+

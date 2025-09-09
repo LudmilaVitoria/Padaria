@@ -9,37 +9,186 @@
     <link href="pg.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg" id="nav">
-        <div class="container-fluid">
-            <a class="navbar-brand">
-                <img src="padaria.png" class="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#">Catalog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#">Contact us</a>
-
-                        <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-                    </li>                    
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagens/padarias.png" class="logo" alt="Logo da padaria">
+          Bakery
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Catálogo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contatos</a></li>
+          </ul>
+          <!-- Pesquisa -->
+          <form class="d-flex ms-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
         </div>
+      </div>
     </nav>
+
+    <!-- CAPA -->
+    <div class="capa" id="capa">
+      <h1 class="titulo">Sejam bem-vindos!</h1>
+      <img src="imagens/conjunto.png" class="inicio">
+    </div>
+
+    <!-- PRODUTOS -->
+    <div class="bolo" id="bolo">
+      <img src="imagens/bolo.png" class="bolo-img">
+    </div>
+
+    <div class="croissant" id="croissant">
+      <img src="imagens/croissant.png" class="croissant-img">
+    </div>
+
+    <div class="pao" id="pao">
+      <img src="imagens/pao.png" class="pao-img">
+    </div>
+
+    <div class="donuts" id="donuts">
+      <img src="imagens/donuts.png" class="donuts-img">
+    </div>
+
+    <div class="conjunto2" id="conjunto2">
+      <img src="imagens/conjunto2.png" class="conjunto2-img">
+    </div>
+
+<!-- SOBRE A EMPRESA -->
+ <div class="sobre" id="sobre">
+    <h2 class="titulo">Sobre nós</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tenetur fugit id delectus tempora aliquam, at asperiores? 
+        Rem, saepe asperiores. Eaque saepe, quaerat ad modi similique autem nam rem iure rerum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, consequuntur placeat.
+         Delectus neque, laboriosam quisquam aliquam dolorum odio asperiores distinctio quo doloremque, excepturi in esse voluptatem. 
+         Maxime incidunt similique veniam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+         Molestiae eum odio beatae vitae praesentium sint natus fuga ipsam veritatis non vel officia error, maxime minima iste inventore dicta unde? Alias. 
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum non, architecto eos mollitia modi numquam consequatur laboriosam accusamus aperiam voluptatibus. 
+         Placeat libero eum error ratione facilis optio odio quibusdam ullam?</p>
+  </div>
+
+<!-- CATALOGO -->
+  <div class="catalogo" id="catalogo">
+    <h2 class="titulo">Catálogo</h2>
+
+    <div class="container my-5">
+  <div class="row justify-content-center">
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagens/bol.jpeg" class="card-img-top" alt="Bolo">
+        <div class="card-body">
+          <h5 class="card-title">Bolo</h5>
+          <p class="card-text">Um bolo delicioso para sua festa!</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagens/croi.jpeg" class="card-img-top" alt="Croissant">
+        <div class="card-body">
+          <h5 class="card-title">Croissant</h5>
+          <p class="card-text">Fresco e amanteigado, perfeito para o café.</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagens/donu.jpeg" class="card-img-top" alt="Donuts">
+        <div class="card-body">
+          <h5 class="card-title">Donuts</h5>
+          <p class="card-text">Coloridos e deliciosos, direto da padaria!</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagens/pae.jpeg" class="card-img-top" alt="Pães">
+        <div class="card-body">
+          <h5 class="card-title">Pães</h5>
+          <p class="card-text">Pães fresquinhos de padaria, com casca dourada e miolo macio.</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagens/coo.jpeg" class="card-img-top" alt="Cookies">
+        <div class="card-body">
+          <h5 class="card-title">Cookies</h5>
+          <p class="card-text">Biscoitos crocantes por fora e macios por dentro.</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="imagens/cafe.png" class="card-img-top" alt="Café">
+        <div class="card-body">
+          <h5 class="card-title">Café</h5>
+          <p class="card-text">Um café quente e encorpado, perfeito para acompanhar os sabores de padaria.</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+</div>
+
+
+                
+    <!-- CONTATOS -->
+    <div id="contatos">
+  <h3 class="main-title">Contatos</h3>
+  <div class="row text-center">
+
+    <div class="col-sm-4 destaque-texto">
+      <i class="fa-solid fa-at icones"></i>
+      <h4>E-MAIL CORPORATIVO</h4>
+      <p class="destaque">bakerycorporativo@gmail.com.</p>
+    </div>
+
+    <div class="col-sm-4 destaque-texto">
+      <i class="fa-brands fa-facebook icones"></i>
+      <h4>REDES SOCIAIS</h4>
+      <p class="destaque">Bakery</p>
+    </div>
+
+    <div class="col-sm-4 destaque-texto">
+      <i class="fa-solid fa-envelope icones"></i>
+      <h4>E-MAIL MARKETING</h4>
+      <p class="destaque">bakerymarketing@gmail.com</p>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HoA1ZpXVlS6LxQfZ5Jz7H5F8CFVjV/VOhE5apqj4E6YvYV7U0q8JzsySLEe8c+9k" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+    
